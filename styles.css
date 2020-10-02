@@ -1,0 +1,52 @@
+* {
+  border: 0;
+  margin: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'master gold'
+    'master silver';
+  justify-content: center;
+  justify-items: start;
+  padding: 30px 30px;
+}
+
+main .master {
+  grid-area: master;
+}
+
+main .gold {
+  grid-area: gold;
+}
+
+main .silver {
+  grid-area: silver;
+}
+
+main .master div {
+  padding-left: 20px;
+}
+
+main .gold div {
+  padding-left: 20px;
+}
+
+main .silver div {
+  padding-left: 20px;
+}
+
+main .master div img {
+  width: 250px;
+}
+
+main .gold div img {
+  width: 100px;
+}
+
+main .silver div img {
+  width: 75px;
+}
