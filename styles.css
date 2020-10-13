@@ -1,6 +1,7 @@
 * {
   border: 0;
   margin: 0;
+  background-color: #e5e5e5;
 }
 
 main {
@@ -27,6 +28,17 @@ main .master div,
 main .gold div,
 main .silver div {
   padding-left: 0px;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+}
+
+main .master div img,
+main .gold div img,
+main .silver div img {
+  padding: 7px 7px;
 }
 
 main .master div img {
@@ -34,7 +46,7 @@ main .master div img {
 }
 
 main .gold div img {
-  width: 100px;
+  width: 125px;
 }
 
 main .silver div img {
@@ -53,6 +65,7 @@ main .silver div img {
     justify-items: start;
     padding: 30px 30px;
   }
+
   main .master div,
   main .gold div,
   main .silver div {
